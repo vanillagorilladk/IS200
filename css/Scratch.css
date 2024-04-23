@@ -1,5 +1,5 @@
 .nav {
-    background-color: black; /* Background color */
+    background-color: rgb(100, 173, 242); /* Background color */
     overflow: hidden; /* Ensure the navigation items stay in the container */
     width: 100%; /* Full width */
 }
@@ -7,7 +7,7 @@
 .nav a {
     float: left; /* Float the links to the left */
     display: block; /* Make the links block elements */
-    color: #f2f2f2; /* Text color */
+    color: #4a4848; /* Text color */
     text-align: center; /* Center align the text */
     padding: 14px 16px; /* Padding for the links */
     text-decoration: none; /* Remove underline from links */
@@ -24,7 +24,6 @@
     color: white; /* Active link text color */
 }
 
-/* Responsive navigation */
 @media screen and (max-width: 600px) {
     .nav a {
         float: none; /* Remove floating on small screens */
@@ -37,11 +36,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #a2caf0;
     color: #666; /* Lighter text color */
     text-align: center; /* Center align content */
-    background-image: url(../assets/img/FS3.jpg);
-    background-size: cover;
+    
 }
 
 .container {
@@ -50,7 +48,6 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    text-align: left; /* Align text content to the left */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -75,8 +72,8 @@ h5 {
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 0;
+    justify-content: center;
+    text-align: center;
 }
 
 ul li {
@@ -85,14 +82,6 @@ ul li {
 
 ul li ul {
     margin-top: 5px;
-    margin-left: 20px;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
